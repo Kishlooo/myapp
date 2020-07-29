@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>welcome to sam</title>
+</head>
+<body>
+    <h1>welcome to sam.html</h1>
+    <a href="{% url 'myapp:child' %}">Child</a>
+    <a href="{% url 'myapp:home' %}">Home</a>
+</body>
+</html>
+<!--as sample present in generic or perent url.py if ever we wanted to creat 
+the url nevigator then we dont specify the app name here.
+ but when you look at home and the child navigators as they are present in the 
+ specific urls.py we specify the app name over there. -->

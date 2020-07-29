@@ -3,3 +3,11 @@
 {% block title %}
     <title>child html file</title>
 {% endblock  %}
+
+{% block content %}
+    <h2>Welcome to child.html</h2>
+    <a href="{% url 'myapp:home' %}">home</a>
+    <a href="{% url 'sample' %}">sample</a>
+{% endblock %}
+
+<!-- Note: only built in blocks are allowed to use -->
